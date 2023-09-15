@@ -360,4 +360,52 @@ body {
     padding-left: 100px;
     padding-right: 100px;
   }
+  
+}
+
+.neonText {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f04,
+      0 0 82px #f04,
+      0 0 92px #f04,
+      0 0 102px #f04,
+      0 0 151px #f04;
+  }
+
+.pulsate {
+     animation: pulsate 1.5s infinite alternate;     
+}
+
+@keyframes pulsate {
+    
+  100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #f04,
+      0 0 80px #f04,
+      0 0 90px #f04,
+      0 0 100px #f04,
+      0 0 150px #f04;
+  
+  }
+  
+  0% {
+
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #f04,
+    0 0 45px #f04,
+    0 0 55px #f04,
+    0 0 70px #f04,
+    0 0 80px #f04;
+
 }
