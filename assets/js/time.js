@@ -12,7 +12,8 @@ function displayClock() {
 	var dd = d.getDate();
 	var min = (mins = ('0' + d.getMinutes()).slice(-2));
 	var hh = d.getHours();
-	var sec = d.getSeconds();
+	//var sec = d.getSeconds();
+	var sec = (secs = ('0' + d.getSeconds()).slice(-2))
 	var ampm = '';
 
 	if (CONFIG.twelveHourFormat) {
