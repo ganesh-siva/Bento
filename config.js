@@ -11,29 +11,29 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'CHAD',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: 'Good Morning!🌅 ',
+	greetingAfternoon: 'Good Afternoon!🌞 ',
+	greetingEvening: 'Good Evening!!🌆',
+	greetingNight: 'Night Time🌃🌉🦉',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherKey: '8c3addf7d3d9a595103da2a1f05bd11e', // Write here your API Key
+	weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '12.971707372277757',
+	defaultLongitude: '77.69693993640456',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -194,17 +194,10 @@ const CONFIG = {
 					name: 'Reddit',
 					link: 'https://www.reddit.com',
 				},
-				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
-				},
-				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
-				},
+				
 			],
 		},
-		{
+/*		{
 			icon: 'github',
 			id: '2',
 			links: [
@@ -225,6 +218,6 @@ const CONFIG = {
 					link: 'https://github.com/migueravila',
 				},
 			],
-		},
+		}, */
 	],
 };
